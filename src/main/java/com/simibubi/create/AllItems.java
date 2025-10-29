@@ -183,7 +183,7 @@ public class AllItems {
 		REGISTRATE.item("cardboard_sword", CardboardSwordItem::new)
 			.burnTime(1000)
 			.properties(p -> p.stacksTo(1))
-			.properties(p -> p.attributes(SwordItem.createAttributes(AllToolMaterials.CARDBOARD, 3, 1)))
+			.properties(p -> p.attributes(SwordItem.createAttributes(AllToolMaterials.CARDBOARD, 3, -0.5f)))
 			.model(AssetLookup.itemModelWithPartials())
 			.register();
 
